@@ -13,7 +13,7 @@
 #import "BSAddressComponent.h"
 #import "BSForwardGeocoder.h"
 
-@interface BSGoogleV3KmlParser : NSObject {
+@interface BSGoogleV3KmlParser : NSObject <NSXMLParserDelegate> {
 	NSMutableString *contentsOfCurrentProperty;
 	int statusCode;
 	NSMutableArray *results;

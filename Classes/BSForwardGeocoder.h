@@ -35,7 +35,6 @@ enum {
 
 @interface BSForwardGeocoder : NSObject {
 	NSString *searchQuery;
-	NSString *googleAPiKey;
 	int status;
 	NSArray *results;
 	id delegate;

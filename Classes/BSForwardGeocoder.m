@@ -130,7 +130,6 @@
 	}
 	
 	[searchQuery release];
-	[googleAPiKey release];
 	
 	[super dealloc];
 }

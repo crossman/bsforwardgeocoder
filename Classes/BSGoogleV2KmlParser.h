@@ -13,7 +13,7 @@
 #import <Foundation/Foundation.h>
 #import "BSKmlResult.h"
 
-@interface BSGoogleV2KmlParser : NSObject {
+@interface BSGoogleV2KmlParser : NSObject <NSXMLParserDelegate> {
 	NSMutableString *contentsOfCurrentProperty;
 	int statusCode;
 	NSString *name;
